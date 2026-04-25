@@ -220,11 +220,4 @@ footer {
         font-size: 1.4rem;
     }
 }
-.contact-name {
-    display: block;
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-transform: uppercase; /* Tekee nimestä hieman hienostuneemman */
-}
+
