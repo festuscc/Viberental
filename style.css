@@ -192,3 +192,31 @@ footer {
         font-size: 2rem;
     }
 }
+.contact-info {
+    margin: 20px 0;
+}
+
+.phone-link {
+    display: inline-block;
+    color: var(--white);
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.phone-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--white);
+    transform: scale(1.05);
+}
+
+/* Pienennetään puhelinnumeron fonttia puhelimella, ettei se rivity rumasti */
+@media (max-width: 480px) {
+    .phone-link {
+        font-size: 1.4rem;
+    }
+}
